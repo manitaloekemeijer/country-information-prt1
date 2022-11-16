@@ -1,33 +1,118 @@
+@import "https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&display=swap";
+/*Prt1*/
+* {
+    margin: 0;
+    padding: 0;
+    /*zo worden breedtes en hoogtes van elementen berekend INCLUSIEF padding en borders */
+    box-sizing: border-box;
+}
+.outerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.innerContainer {
+    flex-basis: 1400px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    /*We voegen margin toe aan de linker- en rechterkant, zodat de content nooit helemaal tegen de rand gedrukt kan worden*/
+    margin: 0 20px;
+    /*We zorgen er ook voor dat deze flex-item op haar beurt ook weer een flexbox container is, waarin alle children onder elkaar komen te staan*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#search-country-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*.inputSearchContainer {*/
+/*    display: inline;*/
+/*}*/
+.titlePrt1 {
+    font-size: 50px;
+    font-family: Gochi Hand, Permanent Marker, cursive, sans-serif;
+
+}
 #africa {
     font-size: 25px;
     color: blue;
 }
-
 #oceania {
     font-size: 25px;
     color: purple;
 }
-
 #americas {
     font-size: 25px;
     color: green;
 }
-
 #europe {
     font-size: 25px;
     color: yellow;
 }
-
 #asia {
     font-size: 25px;
     color: red;
 }
-
 #country-List {
     list-style: none;
 }
-
 .flag{
     width: 50px;
+}
+.population {
+    margin-bottom: 50px;
+}
+/*Prt2*/
+.titlePrt2 {
+    font-family: Gochi Hand, Permanent Marker, cursive, sans-serif;
+    /*font-family: 'Permanent Marker', cursive;*/
+    /*font-family: Arial Rounded MT Bold, Merriweather, sans-serif;*/
+    font-size: 70px;
+}
+.namePrt2 {
+    font-family: Gochi Hand, Permanent Marker, cursive, sans-serif;
+    font-size: 30px;
+}
+#country-ListPrt2 {
+    list-style-type: none;
+    /*text-align: center;*/
+}
+.flagPrt2 {
+    width: 80px;
+}
+.countryPrt2Details{
+    display: inline;
+}
+#turningWorldMap{
+    width: 700px;
+}
+#searchCountry-Button {
+    border-style: solid;
+    border-width: thin;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    background-color: rgba(79, 176, 79, 0.84);
+}
+#countryname-field {
+    border-style: solid;
+    border-width: thin;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+}
+.resultField {
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px lightgrey;
+    border-radius: 15px;
 }
 /*# sourceMappingURL=index.be5cf2f4.css.map */
