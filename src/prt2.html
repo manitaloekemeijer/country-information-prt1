@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Information Prt2</title>
+    <link rel="stylesheet" href="styles.css">
+    <SCRIPT defer src=./app.js type="module"></SCRIPT>
+</head>
+<body>
+<a href="index.html">Country prt1</a>
+<main class="outerContainer">
+    <div class="innerContainer">
+        <h1 class="titlePrt2">Let's search some countries</h1>
+        <form id="search-country-form">
+            <img src="assets/picturePrt2.png" alt="turningWorldMap" id="turningWorldMap">
+          <div class="inputSearchContainer">
+            <!--        <label for="input-CountryName"></label>-->
+            <input type="text" name="countryName" id="countryname-field" placeholder="Bijvoorbeeld Nederland of Peru">
+              <button id="searchCountry-Button" type="submit">ZOEK</button>
+          </div>
+        </form>
+        <div class="resultField">
+        <ul id="country-ListPrt2"></ul>
+        <span id="error-Message"></span>
+        </div>
+    </div>
+</main>
+</body>
+</html>

@@ -1,20 +1,17 @@
+@import "https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&display=swap";
 /*Prt1*/
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     /*zo worden breedtes en hoogtes van elementen berekend INCLUSIEF padding en borders */
     box-sizing: border-box;
 }
-
 .outerContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .innerContainer {
     flex-basis: 1400px;
     flex-shrink: 1;
@@ -26,17 +23,14 @@
     flex-direction: column;
     align-items: center;
 }
-
 #search-country-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 /*.inputSearchContainer {*/
 /*    display: inline;*/
 /*}*/
-
 .titlePrt1 {
     font-size: 50px;
     font-family: Gochi Hand, Permanent Marker, cursive, sans-serif;
@@ -46,70 +40,55 @@
     font-size: 25px;
     color: blue;
 }
-
 #oceania {
     font-size: 25px;
     color: purple;
 }
-
 #americas {
     font-size: 25px;
     color: green;
 }
-
 #europe {
     font-size: 25px;
     color: yellow;
 }
-
 #asia {
     font-size: 25px;
     color: red;
 }
-
 #country-List {
     list-style: none;
 }
-
 .flag{
     width: 50px;
 }
-
 .population {
     margin-bottom: 50px;
 }
-
 /*Prt2*/
-
 .titlePrt2 {
     font-family: Gochi Hand, Permanent Marker, cursive, sans-serif;
     /*font-family: 'Permanent Marker', cursive;*/
     /*font-family: Arial Rounded MT Bold, Merriweather, sans-serif;*/
     font-size: 70px;
 }
-
 .namePrt2 {
     font-family: Gochi Hand, Permanent Marker, cursive, sans-serif;
     font-size: 30px;
 }
-
 #country-ListPrt2 {
     list-style-type: none;
     /*text-align: center;*/
 }
-
 .flagPrt2 {
     width: 80px;
 }
-
 .countryPrt2Details{
     display: inline;
 }
-
 #turningWorldMap{
     width: 700px;
 }
-
 #searchCountry-Button {
     border-style: solid;
     border-width: thin;
@@ -120,7 +99,6 @@
     font-size: large;
     background-color: rgba(79, 176, 79, 0.84);
 }
-
 #countryname-field {
     border-style: solid;
     border-width: thin;
@@ -131,10 +109,10 @@
     font-size: large;
     text-align: center;
 }
-
 .resultField {
     margin: 50px;
     padding: 20px;
     box-shadow: 1px 1px 10px lightgrey;
     border-radius: 15px;
 }
+/*# sourceMappingURL=index.be5cf2f4.css.map */
